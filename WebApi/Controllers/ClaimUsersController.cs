@@ -18,6 +18,7 @@ namespace CRUDUsingWebApi.Controllers
         private ExpensesClaimDBEntities db = new ExpensesClaimDBEntities();
 
         // GET: api/ClaimUsers
+        //Http
         [HttpGet]
         public IQueryable<User> GetUsers()
         {
