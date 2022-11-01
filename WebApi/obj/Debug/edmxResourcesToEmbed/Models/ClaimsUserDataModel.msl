@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExpensesClaimDBModelStoreContainer" CdmEntityContainer="ExpensesClaimDBEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="ExpensesClaimDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Role" ColumnName="Role" />
+          <ScalarProperty Name="Department" ColumnName="Department" />
+          <ScalarProperty Name="ApproverLevel" ColumnName="ApproverLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
